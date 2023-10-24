@@ -28,7 +28,7 @@ def server_receive(server_socket):
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(('0.0.0.0', 8888))
 server.listen(5)
-print("Сервер готовий до прийому з'єднань.")
+print("Сервер готовий до прийому з'єднань")
 
 # Створення клієнтського сокету
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
